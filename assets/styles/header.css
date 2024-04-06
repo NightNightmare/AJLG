@@ -23,11 +23,11 @@ header {
     align-items: center;
 }
 
-/*.nav-list {
+.nav-list {
     display: flex;
     justify-content: center;
     list-style: none;
-}*/
+}
 
 ul {
     display: flex;
@@ -110,5 +110,9 @@ ul {
 
     .mobile-menu .contact-button button {
         width: 100%;
+    }
+
+    .open {
+        display: block;
     }
 }
