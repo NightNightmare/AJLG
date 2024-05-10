@@ -48,7 +48,7 @@ ul {
 
 .contact-button button {
     border: none;
-    background-color: #0187a7;
+    background-color: #7f37c9;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -58,6 +58,10 @@ ul {
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.contact-button button:hover {
+    opacity: 0.8;
 }
 
 .mobile-menu-icon {
