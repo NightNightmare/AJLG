@@ -15,10 +15,6 @@
     letter-spacing: 1px;
 }
 
-main {
-    height: 1000vh;
-}
-
 footer {
     width: 100%;
     color: var(--color-neutral-40);

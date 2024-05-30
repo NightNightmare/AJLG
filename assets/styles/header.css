@@ -13,9 +13,10 @@ header {
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 10px;
+    height: 60px;
 }
 
 .logo {
@@ -27,6 +28,7 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
+    padding: 0 50px;
 }
 
 ul {
@@ -75,6 +77,7 @@ ul {
 @media screen and (max-width: 768px) {
     .nav-bar {
         padding: 1.5rem;
+        justify-content: space-between;
     }
 
     .nav-item {

@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    height: 150vh;
+}
+
 #progresso {
     position: fixed;
     bottom: 20px;
