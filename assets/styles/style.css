@@ -26,3 +26,11 @@ html {
     font-size: 35px;
     color: #7f37c9;
 }
+
+main{
+    height: 850px;
+}
+
+.container{
+    background-color: #faf9fc;
+}

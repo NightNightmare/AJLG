@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/styles/header.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/filter_home.css">
     <link rel="shortcut icon" href="assets/img/logo-removebg.png" type="image/x-icon">
     <title>AJLG | Associação Juvenil de Leitão Grande</title>
 </head>
@@ -54,6 +55,29 @@
 
     <div id="progresso">
         <span id="valor-progresso">&#x1F815;</span>
+    </div>
+
+    <div class="container">
+
+        <div class="filtro">
+            <div class="filtro-titulo">Filtrar por Categoria:</div>
+            <div class="opcoes-filtro">
+              <button class="filtro-btn" data-categoria="todos">Todos</button>
+              <button class="filtro-btn" data-categoria="eletronicos">Eletrônicos</button>
+              <button class="filtro-btn" data-categoria="roupas">Roupas</button>
+              <button class="filtro-btn" data-categoria="livros">Livros</button>
+            </div>
+          </div>
+        
+          <div class="produtos">
+            <!-- Aqui viriam os produtos da loja -->
+            <div class="produto eletronicos"><img src="produto_eletronico1.png" alt="Produto Eletrônico 1"></div>
+            <div class="produto roupas"><img src="produto_roupa1.png" alt="Produto de Roupa 1"></div>
+            <div class="produto livros"><img src="assets/img/livro.jpg" alt="CABEÇA FRIA CORAÇÃO QUENTE"></div>
+            <div class="produto eletronicos"><img src="produto_eletronico2.png" alt="Produto Eletrônico 2"></div>
+            <div class="produto roupas"><img src="produto_roupa2.png" alt="Produto de Roupa 2"></div>
+          </div>
+
     </div>
 
     <main>
@@ -140,6 +164,7 @@
     </footer>
 
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/filter_home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
